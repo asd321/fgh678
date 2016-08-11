@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>游戏安装运行方法</title>
+        <style type="text/css">
+        body{background-repeat:no-repeat;background-size:100% 1440px;
+        background-image:-moz-linear-gradient(bottom,#ffffff 0%,#99e7fd 80%);
+        background-image:-o-linear-gradient(bottom,#ffffff 0%,#99e7fd 80%);
+        background-image:-ms-linear-gradient(bottom,#ffffff 0%,#99e7fd 80%);
+        background-image:-webkit-linear-gradient(bottom,#ffffff 0%,#99e7fd 80%);
+        background-image:linear-gradient(#99e7fd 0%,#ffffff 80%);}
+        h1,h2{text-align:center;border-radius:10px;text-shadow:2px 2px 2px rgba(0,0,0,.4);background-color:white;color:#99e7fd;width:280px;height:100%;box-shadow:5px 5px 5px rgba(0,0,0,.3);}
+        #menu-bar {
+        width: 90%;
+        margin: 0px 0px 0px 0px;
+        padding: 6px 6px 6px 6px;
+        height: 45px;
+        border-radius: 24px;
+        box-shadow: 2px 2px 6px #666666;
+        background: #FCFCFC;
+        border: solid 2px #99e7fd;
+        min-width:900px;
+        position:relative;
+        margin:auto;}
+        #menu-bar li {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 10px 3px 7px;
+        float: left;
+        position: relative;
+        list-style: none;}
+        #menu-bar a {
+        font-weight: normal;
+        font-family: arial;
+        font-style: normal;
+        font-size: 30px;
+        color: #99e7fd;
+        text-decoration: none;
+        display: block;
+        padding: 5px 18px 6px 20px;
+        margin: 0;
+        margin-bottom: 0px;
+        border-radius: 13px;
+        text-shadow:2px 2px 2px rgba(0,0,0,.4);}
+        #menu-bar .active a, #menu-bar li:hover > a {
+        background: #99e7fd;
+        background: linear-gradient(#99e7fd,  #ffffff);
+        background: -ms-linear-gradient(top,  #99e7fd,  #ffffff);
+        /*background: -webkit-gradient(linear, left top, left bottom, from(#99e7fd), to(#ffffff));*/
+        background-image:-webkit-linear-gradient(top,#99e7fd , #ffffff);
+        background-image:-o-linear-gradient(top,#99e7fd , #ffffff);
+        background: -moz-linear-gradient(top,  #99e7fd,  #ffffff);
+        color: #441F1F;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+        text-shadow: 1px 2px 4px #FFFFFF;
+        color:#4ca3e0;}
+        article{
+        width: 70%;
+        padding: 6px 6px 6px 6px;
+        height: 100%;
+        border-radius: 24px;
+        box-shadow: 2px 2px 6px #666666;
+        background: #FCFCFC;
+        border: solid 2px #99e7fd;
+        margin:auto;
+        text-align:center;
+        min-width:900px;}
+        .list1 li{text-align:left;margin-bottom: 15px}
+        .p2{text-align:left;margin: 30px}
+        .hr1{height:5px;background-color:#ff99cc;}
+        figure{text-align:center;}
+        </style>
+    </head>
+    <body>
+        <ul id="menu-bar">
+            <li class="active"><a href="http://asd321.pancakeapps.com/">Home</a></li>
+            <li><a href="#">游戏安装运行</a></li>
+            <li><a href="shp2.html">图片搜索相关</a></li>
+            <li><a href="tools.html">常用工具</a></li>
+        </ul>
+        <br> <br>
+        <article>
+            <h3>游戏安装与运行</h3>
+            <p id="tpbar">下载: <a href="http://www.microsoft.com/zh-cn/download/details.aspx?id=13209">AppLocale</a>
+             <a href="http://na-us1.disk-tools.com/download">DAEMON Tools</a>
+             <a href="https://github.com/xupefei/Locale-Emulator/releases">Locale Emulator</a>
+        </p>
+        <hr class="hr1">
+        <div>
+            说明：<ol class="list1">
+                <li>尽量使用原版系统，各种精简版系统可能会出现app加载无效，转区后不能正常启动等等问题。</li>
+                <li>镜像文件虽然也能被压缩软件解开，但建议使用虚拟管区，某些时候也会因路径等问题出现app加载失败或不能正常安装和启动的情况。</li>
+                <li>不少游戏直接复制文件出来也能运行，但需要区分游戏引擎，正规安装是目前出问题概率最小的方法。</li>
+                <li>转区是除了安装日版系统以外最不容易出问题的转码方法。</li>
+                <li>保证安装和运行都没有乱码，换句话说就是不要只在运行时才转码安装时也需要。</li>
+                <li>Applocale比较老旧，相关转码造作建议用Locale Emulator代替。</li>
+            </ol>
+        </div>
+        <hr>
+        <div class="p2">1⋅Applocale下载并安装 （xp vista win7 win8 win8.1通用，win10目前Applocale存在问题，请使用Locale Emulator2.0以上版本）xp以外的系统安装前修改apploc.msi的兼容模式，以管理员权限运行安装。安装完成后在属性里把这个钩打上（如果没打上的话）：
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34nVbx/CcK8q.png" alt="aa" />
+            </figure>
+            注:虚拟光驱并不一定用DAEMON Tools，其他也行，转码工具除了app常用的还有NTLEA、Locale Emulator等。
+        </div>
+        <hr>
+        <div class="p2">
+            2⋅DAEMON Tools安装完成后一般情况直接对着镜像双击鼠标左键即可加载。不行的话就打开DAEMON Tools然后如图：
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34nHON/azlAO.png" alt="aa" />
+            </figure>
+            注:镜像通常是.iso一个或.mdf和.mds两个文件，另外win8以上系统自带虚拟光驱可以直接加载.iso，但不支持.mdf .mds。
+        </div>
+        <hr>
+        <div class="p2">
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE33ZRkW/Vwga2.png" alt="aa" />
+            </figure>如图点击加载镜像。
+        </div>
+        <hr>
+        <div class="p2">3⋅之后打开app(需要管理员权限)，并选择虚拟光驱驱动器中setup之类的东西，总之是安装不是运行：
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34okVj/wQcOx.png" alt="aa" />
+            </figure>
+        </div>
+        <br>
+        <div class="p2">选择安装位置，之后点击「インストール开始」开始安装。
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34ovJL/squXR.jpg" alt="aa" />
+                <br>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34o785/SfCvf.jpg" alt="aa" />
+            </figure>
+        </div>
+        <hr>
+        <div class="p2">4⋅安装完成后再次用Applocale加载已安装好的游戏（不是镜像里的，是已安装好的游戏程序）运行。
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34ohh7/medium.jpg" alt="aa" />
+            </figure>
+        </div>
+        <hr class="hr1">
+        <div class="p2">转区（对游戏兼容好）步骤：控制面板〉区域〉管理〉更改系统区域设置〉日语。转区后所有app或nt等相关步骤全部省略。
+            <figure>
+                <img src="http://pic.yupoo.com/fgh678_v/DE34oVT8/dEk4R.png" alt="aa" />
+            </figure>
+            最直接有效的方法是转区，不过会影响记事本等个别程序的文字显示。
+        </div>
+        <hr class="hr1">
+        <div class="p2">总之就是安装和运行的任何一个步骤都尽量不要出现乱码，比如路径有乱码或中文可能导致运行错误。每个游戏的安装方式并不完全一样，以上仅供参考。<br><br>最后就是有的游戏需要有的游戏不需要的免认证补丁，nodvd补丁之类的问题，不少游戏的破解补丁hgamecn有提供。或者搜索AlphaROMdiE这类通用破解程序。根据游戏不同有不同情况请自行搜索。<br><br><b>搜索引擎可以解决99%+的问题>_></b>
+        </div>
+        <hr class="hr1">
+        <a href="#menu-bar">顶部</a>
+        <br><br>
+    </article>
+</body>
+</html>
